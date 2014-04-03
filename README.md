@@ -64,7 +64,8 @@ If you want to initiate the plugin with options then you can do so like:
             progressBarColor: '6EA5E1',
             tooltipBackgroundColor: 'a2cbfa',
             tooltipPadding: '10',
-            tooltipAnimate: true
+            tooltipAnimate: true,
+            tooltipClass: ""
         });            
 
 
@@ -192,6 +193,16 @@ If you want to initiate the plugin with options then you can do so like:
         <td>Whether to animate the tooltip or not</td>
 
         <td>true/false</td>
+      </tr>
+
+      <tr>
+        <td>tooltipClass</td>
+
+        <td>""</td>
+
+        <td>A string containg class name(s) to apply to the tooltip</td>
+
+        <td></td>
       </tr>
     </tbody>
   </table>
